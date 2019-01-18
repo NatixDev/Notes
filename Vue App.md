@@ -46,6 +46,28 @@ Then to use it from your repo :
 
 Using new Vue() or Vue.component() is the standard way to use Vue when you're building an application that is not a Single Page Application (SPA).
 
+### 4. CSS
+
+```
+<template>
+  <p :class="{underline: isUnderlined, weight: isBold}">Hi!</p>
+</template>
+<script>
+export default {
+  data() {
+    return {
+      isUnderlined: true,
+      isBold: true
+    }
+  }
+}
+</script>
+<style>
+.underline { text-decoration: underline; }
+.weight { font-weight: bold; }
+</style>
+```
+
 
 
 
