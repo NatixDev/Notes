@@ -4,7 +4,6 @@ firebase.settings({ timestanpsInSnapshots: true})
 Pour utiliser la base de données on importe { firestore }
 
 componentDidMount = async () = > {
-  const snapshot = await firestore.collection('posts').get();
-  
+  const snapshot = await firestore.collection('posts').get();  
 }
 
