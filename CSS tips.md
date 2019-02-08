@@ -1,16 +1,16 @@
-Pour éviter que la scrollbar apparaisse lors d'une animation translate3d, on utilise : position: fixed; sur le parent.
+Pour Ã©viter que la scrollbar apparaisse lors d'une animation translate3d, on utilise : position: fixed; sur le parent.
 
-Ajouter des filtres aux photos (exemple sepia 100%) et les retirer avec une animation pour donner un effet de couleur qui apparaît etc...
+Ajouter des filtres aux photos (exemple sepia 100%) et les retirer avec une animation pour donner un effet de couleur qui apparaÃ®t etc...
 
-Technique : BlurUP pour avoir un rendu flou de l'image pendant que celle-ci charge plutôt que de n'avoir rien.
+Technique : BlurUP pour avoir un rendu flou de l'image pendant que celle-ci charge plutÃ´t que de n'avoir rien.
 
 
 Pour manipuler les lignes d'un svg on utilise stroke :
 
 stroke: black = On donne une couleur aux lignes.
-stroke-dasharray/dashoffset: 1000 = On définit un espace de séparation entre les lignes.
+stroke-dasharray/dashoffset: 1000 = On dÃ©finit un espace de sÃ©paration entre les lignes.
 
--webkit-text-stroke-width/color pour définir des contours linéaires sur un texte (expérimental)
+-webkit-text-stroke-width/color pour dÃ©finir des contours linÃ©aires sur un texte (expÃ©rimental)
 Pour rendre l'effet plus compatible sur les anciens navigateurs : 
 text-shadow:
    -1px -1px 0 #000,  
@@ -19,7 +19,7 @@ text-shadow:
    1px 1px 0 #000;
 
 
-Déplacement d'image avec scale : 
+DÃ©placement d'image avec scale : 
 
 element.style {
     background: url(/static/media/home.1d9446ee.jpeg) center center;
@@ -31,9 +31,9 @@ element.style {
 }
 
 
-Lorsque l'on a un conteneur et qu'on veut le déplacer selon un point précis de celui-ci :
+Lorsque l'on a un conteneur et qu'on veut le dÃ©placer selon un point prÃ©cis de celui-ci :
 
-top: calc(50vh - "nombre + rem"). On définit le nombre de rem à retirer par rapport au point précis que l'on désire.
+top: calc(50vh - "nombre + rem"). On dÃ©finit le nombre de rem Ã  retirer par rapport au point prÃ©cis que l'on dÃ©sire.
 
 
 Pour effectuer une animation partant du milieu du conteneur :
