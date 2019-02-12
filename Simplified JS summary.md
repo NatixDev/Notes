@@ -1,7 +1,9 @@
+# Javascript concepts very simplified. Useful as a mnemonic.
+
 ### Closure
 
-..* Function in another function.
+* Function in another function.
 
 ### Callback
 
-..* Function passed as an argument to another function.
+* Function passed as an argument to another function.
