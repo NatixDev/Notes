@@ -13,3 +13,7 @@ https://firebase.google.com/docs/firestore/security/rules-conditions#authenticat
 
 ## Understanding closures, callbacks and promises in JavaScript :
 https://gist.github.com/amysimmons/3d228a9a57e30ec13ab1
+
+# Testing :
+
+https://medium.freecodecamp.org/how-to-get-better-at-testing-with-test-driven-development-18a7d097b23f
