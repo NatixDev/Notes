@@ -86,7 +86,7 @@ git commit -m "Resolve conflicts"
 git push origin feature/reset-password
 
 
-Et si je retourne sur GitLab, magie, il me dit que je peux merger sans problème (à moins que tu ais re-pushé du code en attendant sur master en conflit avec le mien ;))
+Et si je retourne sur GitLab, magie, il me dit que je peux merger sans problème (à moins que tu ais re-pushé du code en attendant sur master en conflit avec le mien)
 
 Permet de dire à Git de se souvenir qu'un « git push » de notre branche « experimental » envoie les changements à la branche « experimental » du dépôt distant. Le prochain push pourra donc se faire simplement avec : git push :
 
