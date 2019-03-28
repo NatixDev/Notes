@@ -96,3 +96,7 @@ Permet de changer de repo :
 
 ```git remote set-url origin https://github.com/user/repo2.git```
 
+Pour savoir combien de lignes de code sont présentes au sein d'un projet : 
+
+```git ls-files | xargs wc -l```
+
